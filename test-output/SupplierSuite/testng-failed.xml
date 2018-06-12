@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SupplierSuite]">
+  <parameter name="browsername" value="CH"/>
+  <test name="SupplierTest10(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Two_Child">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="SearchTwoChild" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Two_Child -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+    </classes>
+  </test> <!-- SupplierTest10(failed) -->
+</suite> <!-- Failed suite [SupplierSuite] -->

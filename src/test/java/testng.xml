@@ -1,0 +1,63 @@
+<!--parallel="tests" thread-count="2"-->
+<suite name="SupplierSuite">
+ <test name="SupplierTest1" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Prepay" />
+</classes> 
+</test>
+<test name="SupplierTest2" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit" />
+</classes> 
+</test>
+<test name="SupplierTest3" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Card" />
+</classes>  
+</test> 
+<test name="SupplierTest4" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Prepay_Within_Deadline" />
+</classes> 
+</test>
+<test name="SupplierTest5" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Within_Deadline" />
+</classes> 
+</test>
+ <test name="SupplierTest6" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline" />
+</classes> 
+</test>   
+<!-- <test name="SupplierTest7" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Prepay_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest8" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_NFR" />
+</classes> 
+</test>
+<test name="SupplierTest9" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Credit_Card_NFR" />
+</classes> 
+</test>  -->
+ <test name="SupplierTest10" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="Search_MyAdmin.Search_Two_Child" />
+</classes> 
+</test> 
+</suite>
